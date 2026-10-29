@@ -1,0 +1,32 @@
+SESSION15
+Bài 4 : Khắc phục tình trạng trôi thông tin trong nhóm làm việc
+
+Tên lớp: HCM K26 CNTT2
+Môn học: Nhập môn công nghệ thông tin
+Họ và tên: LƯƠNG THANH THƯ
+
+
+Phần 1: Bảng so sánh 5 tiêu chí
+
+Tiêu chí		App chat cá nhân (Zalo)						Enterprise Workspace (Lark, Slack)
+Phân loại tin nhắn	Tất cả nằm chung một luồng, việc công lẫn meme			Chia theo Channel và Thread, mỗi chủ đề một nơi
+Tìm kiếm file cũ	File trôi theo tin nhắn, khó tìm, có file hết hạn tải		Tìm theo từ khóa, người gửi, kênh; file lưu lâu dài
+Quản lý công việc	Giao việc bằng tin nhắn, dễ quên, không theo dõi được		Tích hợp Task: có người phụ trách, hạn chót, trạng thái
+Thông báo quan trọng	Bị tin nhắn khác ghi đè						Có kênh #thong-bao, ghim tin, tag đúng người
+Giao tiếp bất đồng bộ	Nhắn là phải trả lời ngay, thiếu ngữ cảnh			Có Schedule Send, Thread giữ ngữ cảnh
+
+Phần 2: Đánh giá
+- Công ty IT chọn Lark/Slack vì:
++ Thông báo nằm ở kênh riêng và được ghim nên không bị 50 tin meme ghi đè.
++ Thông tin được ghi lại rõ ràng nên giảm họp chỉ để hỏi “bản nào mới nhất”, “ai làm phần nào”.
++ Tìm lại dữ liệu nhanh bằng từ khóa.
++ Task có người phụ trách và hạn chót nên ít quên việc.
+Lưu ý: “100% công ty IT” và “hàng trăm giờ họp” là cách nói phóng đại, thực tế là đa số công ty và thời gian tiết kiệm tùy quy mô nhóm.
+Trade-off: Enterprise Workspace có tổ chức nhưng mất thời gian làm quen và cần cả nhóm tuân thủ quy ước. Zalo vẫn hợp để trò chuyện cá nhân.
+- Giải pháp cho “tin nhắn bị phẳng một hàng”:
++ Tách theo Channel (#thong-bao, #hoi-dap, #tan-gau).
++ Dùng Thread để câu hỏi và trả lời nằm cùng chỗ.
++ Ghim tin quan trọng.
++ Tag đích danh, không dùng @all.
++ Tạo Task cho việc có hạn chót.
+
